@@ -6,13 +6,13 @@
 //  Copyright © 2016年 黄永强. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "MAppDelegate.h"
 
-@interface AppDelegate ()
+@interface MAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation MAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

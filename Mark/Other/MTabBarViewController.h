@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MTabBarViewController.h
 //  Mark
 //
 //  Created by 黄永强 on 16/4/19.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MTabBarViewController : UITabBarController
 
 @end
-
