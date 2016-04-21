@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HYQInterface+Enum.h"
 
+
+/**
+ *  网络接口类
+ */
 @interface HYQInterface : NSObject
+
+/**
+ *  1.接口
+ */
 
 @end

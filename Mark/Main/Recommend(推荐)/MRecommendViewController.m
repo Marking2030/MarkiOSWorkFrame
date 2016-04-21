@@ -1,5 +1,5 @@
 //
-//  MCommunityViewController.m
+//  MRecommendViewController.m
 //  Mark
 //
 //  Created by 黄永强 on 16/4/19.
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+#pragma mark - 创建界面
+- (void)creatInterface
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  MAppDelegate.m
 //  Mark
 //
 //  Created by 黄永强 on 16/4/19.
@@ -16,7 +16,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:NO];
+    application.statusBarHidden = NO;
+    
+    self.ViewController = [[MTabBarViewController alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    //去掉tabBar顶部线条
+//    [self.ViewController.tabBar setClipsToBounds:YES];
+    
+    self.window.rootViewController = self.ViewController;
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

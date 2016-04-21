@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MNecessaryViewController.h"
+#import "MRecommendViewController.h"
+#import "MFindViewController.h"
+#import "MMyZoneViewController.h"
 
 @interface MTabBarViewController : UITabBarController
 

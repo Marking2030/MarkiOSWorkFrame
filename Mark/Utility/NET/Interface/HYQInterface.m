@@ -8,6 +8,13 @@
 
 #import "HYQInterface.h"
 
+
 @implementation HYQInterface
+
+#pragma mark - 接口
+/**
+ *  1.接口
+ */
+
 
 @end
